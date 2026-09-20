@@ -141,11 +141,12 @@ Three RAG assistants (RepoSage, ShopMind, Confluo), see **Featured projects** ab
 
 ## 📫 Let's connect
 
-<p >
-  <b>📧 elyaschaimi@gmail.com</b>
-  &nbsp;&nbsp;
-  <a href="https://www.linkedin.com/in/elyas-chaimi-74572b190/"><img align="middle" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-</p>
+<table align="center">
+  <tr>
+    <td align="center" valign="middle"><b>📧 elyaschaimi@gmail.com</b></td>
+    <td align="center" valign="middle"><a href="https://www.linkedin.com/in/elyas-chaimi-74572b190/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a></td>
+  </tr>
+</table>
 
 <p align="center">
   💬 Ask me about: <b>RAG</b>, <b>LLM apps</b>, <b>React / Node.js architecture</b>, <b>hybrid search</b>
