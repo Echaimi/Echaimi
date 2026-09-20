@@ -141,7 +141,7 @@ Three RAG assistants (RepoSage, ShopMind, Confluo), see **Featured projects** ab
 
 ## 📫 Let's connect
 
-<p align="center">
+<p >
   <b>📧 elyaschaimi@gmail.com</b>
   &nbsp;&nbsp;
   <a href="https://www.linkedin.com/in/elyas-chaimi-74572b190/"><img align="middle" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
