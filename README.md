@@ -98,12 +98,44 @@ A multi-source search engine across Notion, Slack, Markdown and PDF documents.
 
 ## 💼 Experience
 
-| Period | Role | Company |
-|---|---|---|
-| 2026 | Full Stack Developer, Generative AI / RAG (side projects) | Personal projects |
-| 2022 – 2026 | Web Developer (React / Node.js) | Smallable |
-| 2021 – 2022 | Web Developer (React / PHP) | Container de France |
-| 2020 – 2021 | Full Stack Developer (React / Node.js) | TYLIA Invest |
+### Web Developer (React / Node.js) · Smallable
+*Nov 2022 – Jan 2026 · Paris*
+
+Online family concept store (fashion, home, toys, beauty) with ~750 brands, most of its revenue made on the web and internationally. I worked across front and back end for 3+ years.
+
+- **Challenge:** heavy technical debt, a legacy PHP monolith where touching one piece risked breaking the whole application
+- **What I did:** progressively decommissioned the monolith in favor of **Node.js microservices** and migrated the whole front end to **React**
+- **Scope:** design system, customizable checkout, loyalty program and the full e-commerce funnel
+- **Infra:** FastAPI, REST APIs (Express / NestJS), Elasticsearch, Docker + Kubernetes, industrialized CI/CD deployments
+
+`React` `Node.js` `FastAPI` `Express` `NestJS` `Elasticsearch` `Docker` `Kubernetes`
+
+### Web Developer (React / PHP) · Container de France
+*Jan 2021 – Nov 2022 · Paris*
+
+Major player in French physical markets going digital. I worked on the full cycle: interface design, development and production release.
+
+- **Challenge:** a platform built in a rush, with no architecture designed to scale
+- **What I did:** complete overhaul of the front end, back end and server management, including authentication, deployment and application interfaces
+- **Impact:** graphic redesign for a smoother user journey, performance work (load speed, technical SEO), unit tests and CI/CD deployments
+
+`React` `PHP` `HTML` `CSS` `CI/CD`
+
+### Full Stack Developer (React / Node.js) · TYLIA Invest
+*Sep 2020 – Jan 2021 · Paris*
+
+Paris-based investment firm (PSI-licensed by the ACPR) building digital platforms for private-market investing: club deals, funds and client portfolios. My first full stack role.
+
+- **Challenge:** reliable dashboards on top of a critical layer of authentication, transactions and reporting that had to stay stable at all times
+- **What I did:** interactive dashboards for investment and portfolio tracking, backed by REST APIs and **Node.js microservices** (auth, transactions, reporting)
+- **Quality:** unit and integration tests, logging and monitoring, ongoing server performance work, Agile methodology
+
+`React` `Node.js` `PostgreSQL` `MongoDB`
+
+### Full Stack Developer, Generative AI / RAG · Personal projects
+*Jan 2026 – present · Paris*
+
+Three RAG assistants (RepoSage, ShopMind, Confluo), see **Featured projects** above.
 
 ---
 
