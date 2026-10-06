@@ -47,11 +47,11 @@ def main() -> None:
             f'<g opacity="0"><rect x="{x}" y="{y}" width="{CELL_SIZE}" height="{CELL_SIZE}" rx="2" fill="{color}"/>'
             f'<animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="{delay:.3f}s" fill="freeze"/></g>'
         )
-    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="860" height="165" viewBox="0 0 860 165" role="img" aria-label="{payload['total']} contributions in the last year">
-<text x="20" y="21" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13">{payload['total']:,} contributions in the last year</text>
+    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="860" height="190" viewBox="0 0 860 190" role="img" aria-label="{payload['total']} contributions in the last year">
 {''.join(month_labels)}
 <g>{''.join(cells)}</g>
 <g fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="10"><text x="2" y="80">Mon</text><text x="2" y="111">Wed</text><text x="2" y="142">Fri</text></g>
+<text x="20" y="184" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13">{payload['total']:,} contributions in the last year</text>
 </svg>'''
     (ROOT / "contrib-heatmap.svg").write_text(svg, encoding="utf-8")
     return
