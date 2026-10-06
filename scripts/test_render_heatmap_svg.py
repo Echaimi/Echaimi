@@ -30,5 +30,16 @@ class CalendarLayoutTests(unittest.TestCase):
         )
 
 
+class HeatmapSvgTests(unittest.TestCase):
+    def test_renders_a_transparent_github_style_calendar(self):
+        render_heatmap_svg.main()
+        svg = (MODULE_PATH.parents[1] / "contrib-heatmap.svg").read_text(encoding="utf-8")
+
+        self.assertNotIn("#0b1220", svg)
+        self.assertNotIn("CONTRIBUTION ACTIVITY", svg)
+        for color in ("#161b22", "#0e4429", "#006d32", "#26a641", "#39d353"):
+            self.assertIn(color, svg)
+
+
 if __name__ == "__main__":
     unittest.main()
