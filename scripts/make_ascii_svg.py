@@ -21,8 +21,8 @@ def main() -> None:
     svg_rows = []
     for index, row in enumerate(rows):
         text = escape(row).replace(" ", "&#160;")
-        y, delay = index * 10 + 52, index * 0.055
-        svg_rows.append(f'''<g clip-path="url(#clip-{index})"><text x="14" y="{y}">{text}</text></g><clipPath id="clip-{index}"><rect x="0" y="{y - 12}" width="0" height="12"><animate attributeName="width" from="0" to="370" dur="0.34s" begin="{delay:.2f}s" fill="freeze"/></rect></clipPath>''')
+        y, delay = index * 10 + 52, index * 0.12
+        svg_rows.append(f'''<g clip-path="url(#clip-{index})"><text x="14" y="{y}">{text}</text></g><clipPath id="clip-{index}"><rect x="0" y="{y - 12}" width="0" height="12"><animate attributeName="width" from="0" to="370" dur="0.7s" begin="{delay:.2f}s" fill="freeze"/></rect></clipPath>''')
     OUTPUT.write_text(f'''<svg xmlns="http://www.w3.org/2000/svg" width="370" height="510" viewBox="0 0 370 510" role="img" aria-label="ASCII portrait of Elyas Chaimi"><rect width="370" height="510" rx="10" fill="#0d1117"/><text x="14" y="25" fill="#8b949e" font-family="monospace" font-size="10">elyas@github:~/profile$ cat portrait.txt</text><g fill="#c9d1d9" font-family="monospace" font-size="7.8" xml:space="preserve">{''.join(svg_rows)}</g></svg>''', encoding="utf-8")
 
 if __name__ == "__main__":
