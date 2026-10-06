@@ -1,5 +1,6 @@
 """Fetch Echaimi's public GitHub contribution calendar without a token."""
 import json
+import re
 from datetime import date
 from html.parser import HTMLParser
 from pathlib import Path
@@ -12,11 +13,37 @@ class ContributionParser(HTMLParser):
     def __init__(self):
         super().__init__()
         self.days = []
+        self.days_by_id = {}
+        self.current_tooltip_target = None
 
     def handle_starttag(self, tag, attrs):
         attributes = dict(attrs)
         if tag == "td" and "data-date" in attributes:
-            self.days.append({"date": attributes["data-date"], "level": int(attributes.get("data-level", 0)), "count": int(attributes.get("data-count", 0))})
+            day = {
+                "date": attributes["data-date"],
+                "level": int(attributes.get("data-level", 0)),
+                "count": int(attributes.get("data-count", 0)),
+            }
+            self.days.append(day)
+            if day_id := attributes.get("id"):
+                self.days_by_id[day_id] = day
+        elif tag == "tool-tip":
+            self.current_tooltip_target = attributes.get("for")
+
+    def handle_data(self, data):
+        if self.current_tooltip_target not in self.days_by_id:
+            return
+
+        match = re.search(r"(No|[\d,]+) contributions? on ", data)
+        if not match:
+            return
+
+        count = 0 if match.group(1) == "No" else int(match.group(1).replace(",", ""))
+        self.days_by_id[self.current_tooltip_target]["count"] = count
+
+    def handle_endtag(self, tag):
+        if tag == "tool-tip":
+            self.current_tooltip_target = None
 
 def main() -> None:
     request = Request("https://github.com/users/Echaimi/contributions", headers={"User-Agent": "Echaimi-profile-readme"})
