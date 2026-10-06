@@ -6,8 +6,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 GITHUB_PALETTE = ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353"]
 CELL_SIZE = 12
-CELL_GAP = 3
-GRID_X = 50
+CELL_GAP = 3.5
+GRID_X = 35
 GRID_Y = 55
 
 
@@ -51,7 +51,7 @@ def main() -> None:
 <text x="20" y="21" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13">{payload['total']:,} contributions in the last year</text>
 {''.join(month_labels)}
 <g>{''.join(cells)}</g>
-<g fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="10"><text x="12" y="79">Mon</text><text x="12" y="109">Wed</text><text x="12" y="139">Fri</text></g>
+<g fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="10"><text x="2" y="80">Mon</text><text x="2" y="111">Wed</text><text x="2" y="142">Fri</text></g>
 </svg>'''
     (ROOT / "contrib-heatmap.svg").write_text(svg, encoding="utf-8")
     return

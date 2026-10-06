@@ -29,7 +29,14 @@ class CalendarLayoutTests(unittest.TestCase):
             ],
         )
 
+    def test_calendar_grid_uses_the_available_width(self):
+        right_edge = (
+            render_heatmap_svg.GRID_X
+            + 52 * (render_heatmap_svg.CELL_SIZE + render_heatmap_svg.CELL_GAP)
+            + render_heatmap_svg.CELL_SIZE
+        )
 
+        self.assertGreaterEqual(right_edge, 850)
 class HeatmapSvgTests(unittest.TestCase):
     def test_renders_a_transparent_github_style_calendar(self):
         render_heatmap_svg.main()
