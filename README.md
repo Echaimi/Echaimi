@@ -8,8 +8,8 @@
 <h3><code>elyas@github ~ $ whoami</code></h3>
 <table>
   <tr>
-    <td valign="top"><img src="./elyas-ascii.svg" width="370" alt="ASCII portrait of Elyas Chaimi" /></td>
-    <td valign="top"><img src="./info-card.svg" width="490" alt="Terminal profile for Elyas Chaimi" /></td>
+    <td valign="top"><img src="./elyas-ascii.svg" width="450" alt="ASCII portrait of Elyas Chaimi" /></td>
+    <td valign="top"><img src="./info-card.svg" width="410" alt="Terminal profile for Elyas Chaimi" /></td>
   </tr>
 </table>
 
