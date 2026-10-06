@@ -37,6 +37,10 @@ class HeatmapSvgTests(unittest.TestCase):
 
         self.assertNotIn("#0b1220", svg)
         self.assertNotIn("CONTRIBUTION ACTIVITY", svg)
+        self.assertNotIn(">Less<", svg)
+        self.assertNotIn(">More<", svg)
+        self.assertIn("contributions in the last year", svg)
+        self.assertIn('attributeName="opacity"', svg)
         for color in ("#161b22", "#0e4429", "#006d32", "#26a641", "#39d353"):
             self.assertIn(color, svg)
 

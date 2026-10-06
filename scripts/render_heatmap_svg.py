@@ -42,20 +42,16 @@ def main() -> None:
         x = GRID_X + week * (CELL_SIZE + CELL_GAP)
         y = GRID_Y + weekday * (CELL_SIZE + CELL_GAP)
         color = GITHUB_PALETTE[min(level, len(GITHUB_PALETTE) - 1)]
+        delay = 0.15 + (week + weekday) * 0.045
         cells.append(
-            f'<rect x="{x}" y="{y}" width="{CELL_SIZE}" height="{CELL_SIZE}" rx="2" fill="{color}"/>'
+            f'<rect x="{x}" y="{y}" width="{CELL_SIZE}" height="{CELL_SIZE}" rx="2" fill="{color}" opacity="0">'
+            f'<animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="{delay:.3f}s" fill="freeze"/></rect>'
         )
-    legend = "".join(
-        f'<rect x="{698 + index * (CELL_SIZE + CELL_GAP)}" y="147" width="{CELL_SIZE}" '
-        f'height="{CELL_SIZE}" rx="2" fill="{color}"/>'
-        for index, color in enumerate(GITHUB_PALETTE)
-    )
-    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="860" height="170" viewBox="0 0 860 170" role="img" aria-label="{payload['total']} contributions in the last year">
+    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="860" height="150" viewBox="0 0 860 150" role="img" aria-label="{payload['total']} contributions in the last year">
 <text x="20" y="21" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13">{payload['total']:,} contributions in the last year</text>
 {''.join(month_labels)}
 <g>{''.join(cells)}</g>
 <g fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="10"><text x="25" y="78">Mon</text><text x="25" y="104">Wed</text><text x="25" y="130">Fri</text></g>
-<g fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="10"><text x="662" y="156">Less</text>{legend}<text x="769" y="156">More</text></g>
 </svg>'''
     (ROOT / "contrib-heatmap.svg").write_text(svg, encoding="utf-8")
     return
