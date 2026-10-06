@@ -7,18 +7,25 @@ ROOT = Path(__file__).resolve().parents[1]
 PALETTE = ["#17251d", "#075c32", "#0b873f", "#16a34a", "#39d353", "#a7f3d0"]
 
 
+def calendar_layout(days):
+    """Return GitHub-calendar positions as (date, level, week, weekday)."""
+    calendar_start = min(date.fromisoformat(entry["date"]) for entry in days)
+    calendar_start -= timedelta(days=(calendar_start.weekday() + 1) % 7)
+    positions = []
+    for entry in sorted(days, key=lambda item: item["date"]):
+        current = date.fromisoformat(entry["date"])
+        week, weekday = divmod((current - calendar_start).days, 7)
+        positions.append((entry["date"], entry["level"], week, weekday))
+    return positions
+
+
 def main() -> None:
     payload = json.loads((ROOT / "data" / "contributions.json").read_text(encoding="utf-8"))
-    levels = {entry["date"]: entry["level"] for entry in payload["days"]}
-    end = date.today()
-    start = end - timedelta(days=370 + (end.weekday() + 1) % 7)
     cells = []
-    for offset in range(371):
-        current = start + timedelta(days=offset)
-        week, weekday = divmod(offset, 7)
+    for _, level, week, weekday in calendar_layout(payload["days"]):
         x, y = 54 + week * 14, 65 + weekday * 14
         delay = 0.20 + (week + weekday) * 0.075
-        color = PALETTE[min(levels.get(current.isoformat(), 0), 5)]
+        color = PALETTE[min(level, 5)]
         cells.append(
             f'<rect x="{x + 5}" y="{y + 5}" width="0" height="0" rx="2" fill="{color}" opacity="0">'
             f'<animate attributeName="x" from="{x + 5}" to="{x}" dur="0.40s" begin="{delay:.3f}s" fill="freeze"/>'
