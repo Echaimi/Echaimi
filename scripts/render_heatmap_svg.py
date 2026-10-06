@@ -5,9 +5,9 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 GITHUB_PALETTE = ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353"]
-CELL_SIZE = 12
-CELL_GAP = 3.5
-GRID_X = 35
+CELL_SIZE = 14
+CELL_GAP = 1.5
+GRID_X = 30
 GRID_Y = 55
 
 
