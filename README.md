@@ -1,171 +1,364 @@
 <div align="center">
 
-<h3><code>elyas@github ~ $ ./contributions.sh</code></h3>
-<img src="./contrib-heatmap.svg" width="860" alt="Elyas Chaimi's contribution activity" />
+<a href="./README.md"><img src="https://img.shields.io/badge/English-7C3AED?style=for-the-badge" alt="English — current language" /></a>
+<a href="./README.fr.md"><img src="https://img.shields.io/badge/Fran%C3%A7ais-312E81?style=for-the-badge" alt="Switch to French" /></a>
 
 <br /><br />
 
-<h3><code>elyas@github ~ $ whoami</code></h3>
-<table>
-  <tr>
-    <td valign="top"><img src="./elyas-ascii.svg" width="410" alt="ASCII portrait of Elyas Chaimi" /></td>
-    <td valign="top"><img src="./info-card.svg" width="410" alt="Terminal profile for Elyas Chaimi" /></td>
-  </tr>
-</table>
+<a href="https://portfolio-peach-eight-80.vercel.app/">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:312E81,50:6D28D9,100:8B5CF6&height=230&section=header&text=Elyas%20Chaimi&fontSize=54&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38&desc=Software%20Engineering%20%7C%20Full%20Stack%20%7C%20Applied%20AI&descSize=16&descAlignY=58" alt="Elyas Chaimi — Software Engineering | Full Stack | Applied AI" />
+</a>
+
+<a href="https://github.com/Echaimi">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=19&duration=3200&pause=1100&color=A78BFA&center=true&vCenter=true&width=760&height=55&lines=Products%20from%20interface%20to%20infrastructure.%3BReact%20%2B%20Node.js%20%2B%20TypeScript%3BRAG%20assistants%20with%20source-cited%20answers." alt="Full stack development and grounded AI" />
+</a>
+
+<br />
+
+<a href="https://www.esgi.fr/"><img src="https://img.shields.io/badge/ESGI%20%C2%B7%20Master%20in%20Web%20Engineering-6D28D9?style=flat-square" alt="ESGI · Master in Web Engineering" /></a>
+<a href="https://portfolio-peach-eight-80.vercel.app/"><img src="https://img.shields.io/badge/TOEIC%20%C2%B7%20920-4F46E5?style=flat-square" alt="TOEIC · 920" /></a>
+<a href="https://portfolio-peach-eight-80.vercel.app/"><img src="https://img.shields.io/badge/Paris%2C%20France-8B5CF6?style=flat-square" alt="Paris, France" /></a>
+
+<br /><br />
+
+<a href="https://portfolio-peach-eight-80.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-6D28D9?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+<a href="https://www.linkedin.com/in/elyas-chaimi/"><img src="https://img.shields.io/badge/LinkedIn-4F46E5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="mailto:elyaschaimi@gmail.com"><img src="https://img.shields.io/badge/Email-7C3AED?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+<a href="https://github.com/Echaimi"><img src="https://img.shields.io/badge/GitHub-312E81?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+
+<br /><br />
+
+<a href="https://github.com/Echaimi"><img src="https://komarev.com/ghpvc/?username=Echaimi&label=Profile%20views&color=7c3aed&style=flat-square" alt="Profile views" /></a>
+<a href="https://github.com/Echaimi?tab=followers"><img src="https://img.shields.io/github/followers/Echaimi?label=Followers&style=flat-square&color=6366F1&labelColor=171329" alt="GitHub followers" /></a>
+<a href="https://github.com/Echaimi?tab=repositories"><img src="https://img.shields.io/github/stars/Echaimi?label=Total%20stars&style=flat-square&color=8B5CF6&labelColor=171329" alt="GitHub stars" /></a>
 
 </div>
 
 ---
 
-<h1 align="center">Hi, I'm Elyas 👋</h1>
+## About
+
+I'm **Elyas Chaimi**, a full stack developer based in **Paris**, with **5+ years of experience** across e-commerce, fintech and SaaS.
+
+I build products from **interface to infrastructure**: React applications, design systems, REST APIs, Node.js microservices and deployment pipelines. My experience includes modernizing a legacy PHP monolith, rebuilding customer journeys and developing investment dashboards.
+
+Today, I focus on **applied AI and retrieval-augmented generation**. With **RepoSage**, **ShopMind** and **Confluo**, I work on AST-aware chunking, hybrid search, reranking and answers grounded in explicit source citations.
+
+My product engineering approach is straightforward: understand the user journey, define clear contracts and carry the implementation through the frontend, backend and infrastructure.
+
+**Education:** Master's in Web Engineering · ESGI<br />
+**Languages:** French · Arabic · English — TOEIC 920 · Spanish
+
+### Open To
+
+**Full stack engineering · Applied AI / RAG engineering · Product development · Technical collaboration**
+
+[Discuss a role or a product](mailto:elyaschaimi@gmail.com) · [Explore my portfolio](https://portfolio-peach-eight-80.vercel.app/)
+
+---
+
+## Tech Stack
+
+### Languages
 
 <p align="center">
-  <b>Full Stack Developer</b> · React · Node.js · TypeScript<br/>
-  I build <b>RAG-powered AI apps</b> 🧠 based in Paris 🇫🇷
+  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=ts,js,php,java,go,html,css&theme=dark&perline=5" alt="TypeScript, JavaScript, PHP, Java, Go, HTML, CSS" /></a>
 </p>
+
+### Frontend
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Echaimi&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" />
+  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=react,nextjs,vue,redux&theme=dark&perline=5" alt="React, Next.js, Vue, Redux" /></a>
+</p>
+
+<p align="center"><a href="https://portfolio-peach-eight-80.vercel.app/"><img src="https://img.shields.io/badge/React%20Native-6366F1?style=flat-square&logo=react&logoColor=white" alt="React Native" /></a> <a href="https://portfolio-peach-eight-80.vercel.app/"><img src="https://img.shields.io/badge/Design%20Systems-7C3AED?style=flat-square" alt="Design Systems" /></a></p>
+
+### Backend & Databases
+
+<p align="center">
+  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=nodejs,express,nestjs,fastapi,postgres,mysql,mongodb,elasticsearch,firebase,supabase&theme=dark&perline=5" alt="Node.js, Express, NestJS, FastAPI, PostgreSQL, MySQL, MongoDB, Elasticsearch, Firebase, Supabase" /></a>
+</p>
+
+### Cloud, DevOps & Tooling
+
+<p align="center">
+  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=aws,docker,kubernetes,git,github&theme=dark&perline=5" alt="AWS, Docker, Kubernetes, Git, GitHub" /></a>
+</p>
+
+<p align="center"><a href="https://portfolio-peach-eight-80.vercel.app/"><img src="https://img.shields.io/badge/AWS%20EC2%20%2B%20S3-4F46E5?style=flat-square" alt="AWS EC2 + S3" /></a> <a href="https://portfolio-peach-eight-80.vercel.app/"><img src="https://img.shields.io/badge/REST%20APIs%20%2B%20OpenAPI-6D28D9?style=flat-square" alt="REST APIs + OpenAPI" /></a> <a href="https://portfolio-peach-eight-80.vercel.app/"><img src="https://img.shields.io/badge/CI%2FCD-7C3AED?style=flat-square" alt="CI/CD" /></a> <a href="https://portfolio-peach-eight-80.vercel.app/"><img src="https://img.shields.io/badge/Unit%20%2B%20Integration%20Tests-6366F1?style=flat-square" alt="Unit + Integration Tests" /></a></p>
+
+---
+
+## AI / ML Expertise
+
+My AI work focuses on **LLM application engineering, retrieval and grounded generation**.
+
+| Domain | Proficiency | Details |
+| :--- | :--- | :--- |
+| RAG | Applied projects | Assistants for repository code, product catalogs and documents |
+| Hybrid retrieval | Applied projects | Semantic vector search + keyword retrieval, including BM25 |
+| Code understanding | RepoSage | Tree-sitter AST parsing; chunking by function, class and module |
+| Reranking | Confluo | Cohere Rerank |
+| Ingestion pipelines | Confluo | Notion · Slack · Markdown · PDF |
+| Grounded generation | Applied projects | File, line and passage citations; fallback when evidence is missing |
+| Vector databases | Project stack | Weaviate · Pinecone · Qdrant |
+| LLM application tooling | Project stack | LangChain.js · LlamaIndex.js · Vercel AI SDK |
+
+<p align="center">
+<a href="https://portfolio-peach-eight-80.vercel.app/"><img src="https://img.shields.io/badge/LangChain.js-6D28D9?style=flat-square" alt="LangChain.js" /></a>
+<a href="https://portfolio-peach-eight-80.vercel.app/"><img src="https://img.shields.io/badge/LlamaIndex.js-7C3AED?style=flat-square" alt="LlamaIndex.js" /></a>
+<a href="https://portfolio-peach-eight-80.vercel.app/"><img src="https://img.shields.io/badge/Vercel%20AI%20SDK-4F46E5?style=flat-square" alt="Vercel AI SDK" /></a>
+<a href="https://portfolio-peach-eight-80.vercel.app/"><img src="https://img.shields.io/badge/Cohere%20Rerank-6366F1?style=flat-square" alt="Cohere Rerank" /></a>
 </p>
 
 ---
 
-## 🚀 About me
+## Featured Projects
 
-- 💼 5+ years of experience as a full stack developer (e-commerce, fintech, SaaS)
-- 🧠 Currently building **RAG assistants** with TypeScript, LangChain.js and LlamaIndex.js
-- 🏗️ Comfortable across the stack: design systems, REST APIs, microservices, Docker/Kubernetes, CI/CD
-- 🎓 Master's in Web Engineering (ESGI)
-- 🌍 Languages: French, Arabic, English (TOEIC 920), Spanish
+<details open>
+<summary><strong>RepoSage — Repository Intelligence</strong></summary>
 
----
+<br />
 
-## 🔥 Featured projects
+A GitHub repository assistant that answers code questions with **file and line citations**.
 
-### 🔍 [RepoSage](https://github.com/Echaimi/RepoSage)
-An assistant that indexes GitHub repositories and answers questions about the code.
-- AST parsing with **Tree-sitter** (chunking by function / class / module)
-- **Hybrid search**: vector + BM25
-- Answers with **file and line citations**
-- Multi-language support (JS/TS, extensible to Python/Go)
+| Dimension | Details |
+| :--- | :--- |
+| **Stack** | TypeScript · Next.js · Tree-sitter · LangChain.js · LlamaIndex.js · Weaviate · Vercel AI SDK |
+| **Scale** | JavaScript / TypeScript repositories; parsing extensible to Python and Go |
+| **Performance** | AST-aware chunking, vector + BM25 retrieval and streaming answers |
+| **Security** | Access-control design not specified in the public project summary |
+| **Impact** | Connects answers to functions, classes, modules and source locations |
+| **Repository** | [github.com/Echaimi/RepoSage](https://github.com/Echaimi/RepoSage) |
 
-### 🛍️ [ShopMind](https://github.com/Echaimi/ShopMind)
-An e-commerce chatbot combining product sheets, customer reviews and real-time stock.
-- Metadata filtering (price, category, availability)
-- Automatic **review summarization** with source citations
-- **Anti-hallucination** mechanism with graceful fallback
+RepoSage preserves the structure of code during retrieval. Tree-sitter identifies meaningful syntax boundaries, hybrid search combines semantic intent with exact terms, and citations make each answer traceable to the repository.
 
-### 🔗 [Confluo](https://github.com/Echaimi/Confluo)
-A multi-source search engine across Notion, Slack, Markdown and PDF documents.
-- Dedicated ingestion pipeline per source
-- Hybrid search (dense + sparse) with **Cohere Rerank**
-- Passage-level citations and cross-source deduplication
+</details>
 
----
+<br />
 
-## 🛠️ Tech stack
+<details>
+<summary><strong>ShopMind — Grounded E-Commerce Assistant</strong></summary>
 
-**Languages**
+<br />
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+An e-commerce chatbot combining **product information, reviews and real-time stock**.
 
-**Front-end**
+| Dimension | Details |
+| :--- | :--- |
+| **Stack** | Next.js · Vercel AI SDK · Pinecone · PostgreSQL |
+| **Scale** | Product sheets, customer reviews and inventory information |
+| **Performance** | Metadata filtering by price, category and availability |
+| **Security** | Access-control design not specified in the public project summary |
+| **Impact** | Source-cited review summaries and fallback when information is missing |
+| **Repository** | [github.com/Echaimi/ShopMind](https://github.com/Echaimi/ShopMind) |
 
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white)
-![Redux](https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux&logoColor=white)
+ShopMind grounds product answers in catalog and inventory information. Metadata filters narrow the relevant evidence, review summaries preserve their sources, and the assistant falls back when the available data cannot support an answer.
 
-**Back-end**
+</details>
 
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+<br />
 
-**AI / RAG**
+<details>
+<summary><strong>Confluo — Multi-Source Knowledge Retrieval</strong></summary>
 
-![LangChain](https://img.shields.io/badge/LangChain.js-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![LlamaIndex](https://img.shields.io/badge/LlamaIndex.js-8B5CF6?style=for-the-badge)
-![Vercel AI SDK](https://img.shields.io/badge/Vercel_AI_SDK-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![Weaviate](https://img.shields.io/badge/Weaviate-00C389?style=for-the-badge)
-![Pinecone](https://img.shields.io/badge/Pinecone-000000?style=for-the-badge&logo=pinecone&logoColor=white)
-![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=for-the-badge)
-![Cohere](https://img.shields.io/badge/Cohere_Rerank-39594D?style=for-the-badge)
-![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white)
+<br />
 
-**Databases**
+A search engine across **Notion, Slack, Markdown and PDF documents**.
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+| Dimension | Details |
+| :--- | :--- |
+| **Stack** | TypeScript · LangChain.js · LlamaIndex.js · Qdrant · Cohere Rerank · PostgreSQL |
+| **Scale** | Four source types, each with a dedicated ingestion pipeline |
+| **Performance** | Dense + sparse retrieval, reranking, deduplication and streaming |
+| **Security** | Access-control design not specified in the public project summary |
+| **Impact** | Passage-level citations across heterogeneous document sources |
+| **Repository** | [github.com/Echaimi/Confluo](https://github.com/Echaimi/Confluo) |
 
-**Cloud & DevOps**
+Confluo brings scattered knowledge into one retrieval pipeline. Source-specific ingestion, hybrid search and Cohere reranking identify relevant passages; cross-source deduplication reduces repetition while citations preserve traceability.
 
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![OpenAPI](https://img.shields.io/badge/Swagger%2FOpenAPI-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)
+</details>
 
 ---
 
-## 💼 Experience
+## Experience
 
-### Web Developer (React / Node.js) · Smallable
-*Nov 2022 – Jan 2026 · Paris*
+### Full Stack Developer · Generative AI / RAG Projects
 
-Online family concept store (fashion, home, toys, beauty) with ~750 brands, most of its revenue made on the web and internationally. I worked across front and back end for 3+ years.
+**January 2026 — Present · Paris**
 
-- **Challenge:** heavy technical debt, a legacy PHP monolith where touching one piece risked breaking the whole application
-- **What I did:** progressively decommissioned the monolith in favor of **Node.js microservices** and migrated the whole front end to **React**
-- **Scope:** design system, customizable checkout, loyalty program and the full e-commerce funnel
-- **Infra:** FastAPI, REST APIs (Express / NestJS), Elasticsearch, Docker + Kubernetes, industrialized CI/CD deployments
+Building retrieval-based assistants for code, e-commerce and multi-source document search.
+
+- Developed **RepoSage**, **ShopMind** and **Confluo**.
+- Applied AST-based chunking, metadata filtering and source-specific ingestion.
+- Combined semantic and keyword retrieval with reranking.
+- Built streaming answer interfaces with citations and fallback behavior.
+
+`TypeScript` `Next.js` `LangChain.js` `LlamaIndex.js` `Vercel AI SDK`
+
+<br />
+
+### Web Developer · Smallable
+
+**November 2022 — January 2026 · Paris**
+
+Worked across the frontend, backend and infrastructure of an international e-commerce concept store with approximately **750 brands**.
+
+- Progressively decommissioned a legacy **PHP monolith** in favor of **Node.js microservices**.
+- Migrated the frontend to **React**.
+- Worked on the design system, customizable checkout, loyalty program and customer journey.
+- Built REST APIs using **Express**, **NestJS** and **FastAPI**.
+- Used **Elasticsearch**, **Docker**, **Kubernetes** and CI/CD for delivery.
 
 `React` `Node.js` `FastAPI` `Express` `NestJS` `Elasticsearch` `Docker` `Kubernetes`
 
-### Web Developer (React / PHP) · Container de France
-*Jan 2021 – Nov 2022 · Paris*
+<br />
 
-Major player in French physical markets going digital. I worked on the full cycle: interface design, development and production release.
+### Web Developer · Container de France
 
-- **Challenge:** a platform built in a rush, with no architecture designed to scale
-- **What I did:** complete overhaul of the front end, back end and server management, including authentication, deployment and application interfaces
-- **Impact:** graphic redesign for a smoother user journey, performance work (load speed, technical SEO), unit tests and CI/CD deployments
+**January 2021 — November 2022 · Paris**
 
-`React` `PHP` `HTML` `CSS` `CI/CD`
+Contributed to the digital transformation of a French physical-market business, from interface design to production delivery.
 
-### Full Stack Developer (React / Node.js) · TYLIA Invest
-*Sep 2020 – Jan 2021 · Paris*
+- Rebuilt frontend, backend and server management foundations.
+- Developed authentication and application interfaces.
+- Refined the user journey through a visual redesign.
+- Improved load performance and technical SEO.
+- Introduced unit tests and CI/CD deployments.
 
-Paris-based investment firm (PSI-licensed by the ACPR) building digital platforms for private-market investing: club deals, funds and client portfolios. My first full stack role.
+`React` `PHP` `HTML` `CSS` `Unit Testing` `CI/CD`
 
-- **Challenge:** reliable dashboards on top of a critical layer of authentication, transactions and reporting that had to stay stable at all times
-- **What I did:** interactive dashboards for investment and portfolio tracking, backed by REST APIs and **Node.js microservices** (auth, transactions, reporting)
-- **Quality:** unit and integration tests, logging and monitoring, ongoing server performance work, Agile methodology
+<br />
 
-`React` `Node.js` `PostgreSQL` `MongoDB`
+### Full Stack Developer · TYLIA Invest
 
-### Full Stack Developer, Generative AI / RAG · Personal projects
-*Jan 2026 – present · Paris*
+**September 2020 — January 2021 · Paris**
 
-Three RAG assistants (RepoSage, ShopMind, Confluo), see **Featured projects** above.
+Developed interfaces and services for private-market investment platforms, including portfolio tracking and reporting.
+
+- Built interactive investment and portfolio dashboards with **React**.
+- Developed **Node.js microservices** for authentication, transactions and reporting.
+- Worked with **PostgreSQL** and **MongoDB**.
+- Added unit and integration tests, logging and monitoring.
+- Contributed to server performance improvements within an Agile team.
+
+`React` `Node.js` `PostgreSQL` `MongoDB` `Integration Testing` `Monitoring`
 
 ---
 
-## 📫 Let's connect
+## Achievements
 
-<p align="center">
-  <a href="https://github.com/Echaimi"><img align="middle" src="https://img.shields.io/badge/elyaschaimi%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="elyaschaimi@gmail.com" /></a>
-  &nbsp;
-  <a href="https://www.linkedin.com/in/elyas-chaimi-74572b190/"><img align="middle" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-</p>
+<div align="center">
 
-<p align="center">
-  💬 Ask me about: <b>RAG</b>, <b>LLM apps</b>, <b>React / Node.js architecture</b>, <b>hybrid search</b>
-</p>
+| Recognition | Details |
+| :--- | :--- |
+| **Academic qualification** | Master's in Web Engineering · ESGI |
+| **English assessment** | TOEIC **920** |
+| **Professional experience** | 5+ years across e-commerce, fintech and SaaS |
+| **Legacy modernization** | PHP monolith migration, React frontend and Node.js microservices at Smallable |
+| **Applied AI portfolio** | RepoSage · ShopMind · Confluo |
+
+</div>
+
+---
+
+## GitHub Analytics
+
+<div align="center">
+
+<a href="https://github.com/Echaimi"><img height="180" src="https://github-readme-stats.vercel.app/api?username=Echaimi&show_icons=true&hide_border=true&bg_color=0D1117&title_color=A78BFA&text_color=C9D1D9&icon_color=818CF8&ring_color=8B5CF6" alt="GitHub statistics" /></a>
+<a href="https://github.com/Echaimi?tab=repositories"><img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Echaimi&layout=compact&langs_count=8&hide_border=true&bg_color=0D1117&title_color=A78BFA&text_color=C9D1D9" alt="Most used repository languages" /></a>
+
+<br /><br />
+
+<a href="https://github.com/Echaimi"><img src="https://streak-stats.demolab.com?user=Echaimi&hide_border=true&background=0D1117&ring=8B5CF6&fire=A78BFA&currStreakNum=C9D1D9&sideNums=C9D1D9&currStreakLabel=A78BFA&sideLabels=818CF8&dates=8B949E&stroke=312E81" alt="GitHub contribution streak" /></a>
+
+</div>
+
+---
+
+## GitHub Trophies
+
+<div align="center">
+
+<a href="https://github.com/Echaimi"><img src="https://github-profile-trophy-orcin-eta.vercel.app/?username=Echaimi&theme=tokyonight&no-frame=true&no-bg=true&column=4&margin-w=15&margin-h=15" alt="GitHub trophies" /></a>
+
+</div>
+
+---
+
+## Contribution Activity
+
+<div align="center">
+
+<a href="https://github.com/Echaimi"><img width="100%" src="./contribution-activity.svg" alt="GitHub contribution activity graph" /></a>
+
+</div>
+
+---
+
+## Contribution Snake
+
+<div align="center">
+
+<a href="https://github.com/Echaimi"><img width="100%" src="./contribution-snake.svg" alt="Animated violet snake over my recorded GitHub contributions" /></a>
+
+</div>
+
+---
+
+## Current Focus
+
+```yaml
+Learning:
+  - Retrieval strategies for code and documents
+  - Grounded generation and source traceability
+
+Building:
+  - "RepoSage: code answers with file and line citations"
+  - "ShopMind: product assistance grounded in catalog data"
+  - "Confluo: multi-source knowledge retrieval"
+
+Exploring:
+  - AST-aware chunking
+  - Hybrid semantic and keyword search
+  - Reranking and cross-source deduplication
+  - Streaming interfaces for LLM applications
+
+Open To:
+  - Full stack engineering
+  - Applied AI and RAG engineering
+  - Product development
+  - Technical collaboration
+```
+
+---
+
+## Connect
+
+<div align="center">
+
+<p>A product to build, a system to improve or a retrieval challenge to solve?<br /><strong>Let's discuss the engineering behind it.</strong></p>
+
+<a href="mailto:elyaschaimi@gmail.com"><img src="https://img.shields.io/badge/Gmail-7C3AED?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" /></a>
+<a href="https://www.linkedin.com/in/elyas-chaimi/"><img src="https://img.shields.io/badge/LinkedIn-4F46E5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="https://github.com/Echaimi"><img src="https://img.shields.io/badge/GitHub-312E81?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+<a href="https://portfolio-peach-eight-80.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-6D28D9?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+
+<br /><br />
+
+[elyaschaimi@gmail.com](mailto:elyaschaimi@gmail.com)
+
+</div>
+
+---
+
+<div align="center">
+
+<em>“Build with clear intent, engineer with care, and make every answer traceable.”</em>
+
+<br /><br />
+
+<a href="https://portfolio-peach-eight-80.vercel.app/"><img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:312E81,50:6D28D9,100:8B5CF6&height=120&section=footer" alt="Indigo and violet wave footer" /></a>
+
+</div>
